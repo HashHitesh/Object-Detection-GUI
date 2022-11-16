@@ -1,8 +1,4 @@
-'''
-===============================================================
-@ Title:  Tensorflow Object Detection GUI - Tkinter / Welcome Page
-@ Author: Enes Çavuş
-@ Date:   27 June 2020 
+
 
 '''
 
@@ -60,6 +56,5 @@ def quit():
 root.mainloop()
 
 
-# ENES ÇAVUŞ
 
 
