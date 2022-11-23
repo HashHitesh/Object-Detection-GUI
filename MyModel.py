@@ -1,8 +1,3 @@
-
-
-
-
-
 # Import Packages
 #import os
 import os 
@@ -87,9 +82,6 @@ def detect_objects(IMAGE_NAME, SCORE_THRESHOLD):
 	#when detection ended you will have a temporary picture in this 'imgWeWorkingOn' folder.
         # This repository already has included this folder
     cv2.imwrite('D:\PL\AI Model GUI\BasicGuiDesign\imgWeWorkingOn/temp.jpg',image)
-
-
-
 
 
 
