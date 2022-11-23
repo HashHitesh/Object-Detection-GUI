@@ -1,11 +1,7 @@
-
 import sys
 
-
 import tkinter as tk
-
 from tkinter import messagebox
-
 
 import PIL
 import PIL.ImageTk  
@@ -14,7 +10,6 @@ from tkinter import filedialog
 import os
 import cv2
 import MyModel              
-
 
 global thePhotoWeWorkingOn    
 
@@ -122,8 +117,7 @@ def open_img():
     else:
         noPhotoSelected()
     
-
-############################# Frame Operatioins ######################
+# Frame Operatioins
 
 # The frame which has the buttons
 
@@ -139,7 +133,7 @@ frameD = tk.Frame(root, bg="#d5d9e3")
 frameD.place(relheight=0.18, relwidth=0.8, relx=0.1,rely=0.8)
 
 
-############################### Button Operations ################### 
+# Button Operations  
 # Previous Button 
 previousButton = tk.Button(frameD,fg='red', text ="Previous", command= previous)
 
@@ -165,40 +159,6 @@ def quit():
 
 
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
